@@ -19,7 +19,7 @@ public class TestCase extends Helper {
             elementPage.TextBoxElementClick();
             TextBoxComponent txtBoxCpmt = PageFactory.initElements(driver, TextBoxComponent.class);
             String fullName = "DuyHV";
-            String email = "duyhv@fsoft.com.vn";
+            String email = "duyhv@gmail.com";
             String cAddress = "DuyHV - Address 1";
             String pAddress = "DuyHV - Address 2";
             enterText(txtBoxCpmt.fullName, fullName);
